@@ -11,12 +11,24 @@ const Footer = () => {
       <hr />
       <div className="footer">
         <div className="social-links">
-          <img src={Indiamart} alt="" />
+          <a href="https://www.indiamart.com/dhanwati-pharmaceuticals/" target="_blank" rel="noopener noreferrer">
+            <img src={Indiamart} alt="" />
+          </a>
+          <a href="https://m.facebook.com/p/Dhanwati-Pharmaceuticals-100084223115607/">
           <img src={Facebook} alt="" />
-          <img src={Instagram} alt="" />
+          </a>
+         <a href="https://www.instagram.com/dhanwantripharmaceutical/">
+         <img src={Instagram} alt="" />
+         </a>
+         
         </div>
         <div className="logo-f">
           <img src={Logo} alt="" />
+        </div>
+        <div>
+            <span>Address- Mandawar, Bijnor, Uttar Pradesh</span>
+            <span>Mobile Number- +91 9634789631</span>
+            <span>Email- dhanwantripharmaceuticals@gmail.com</span>
         </div>
       </div>
     </div>
