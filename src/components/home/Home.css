@@ -1,0 +1,39 @@
+.Home{
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex; 
+}
+.home-l{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.home-l>:nth-child(1){
+    height: 30rem;
+    width: 30rem;
+}
+.home-r>:nth-child(1){
+    color: blue;
+    padding-left: 5rem;
+}
+.home-r>:nth-child(2){
+    font-size: 2rem;
+    font-weight: 800;
+    padding-left: 5rem;
+}
+.home-r>:nth-child(3){
+    padding-left: 5rem;
+    width: 45rem;
+}
+.home-r>:nth-child(4){
+    padding-top: 2rem;
+    width: 50rem;
+    height: 19.9rem;
+}
+.home-r{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,35 @@
+.Vision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.Vision>:nth-child(1){
+    font-size: 4rem;
+    gap: 1rem;
+    display: flex;
+    font-weight: bold;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+    position: relative;
+}
+.vision-image{
+    height: 30rem;
+    width: 30rem;
+}
+
+.vision-view{
+    display: flex;
+    position: absolute;
+    width: 25rem;
+    bottom: -1.5rem;
+    background-color: rgb(232, 229, 229);
+    flex-direction: column;
+    padding: 2rem;
+    border-top-right-radius: 2rem;
+}

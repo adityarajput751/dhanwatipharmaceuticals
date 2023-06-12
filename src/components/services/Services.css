@@ -1,0 +1,55 @@
+.Services{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.Services>:nth-child(1){
+    display: flex;
+    font-size: 4rem;
+    font-weight: bold;
+    align-items: center;
+    gap: 1rem;
+    align-self: center;
+}
+.Services>:nth-child(2){
+    display: flex;
+    padding-top: 2rem;
+}
+/* .services{
+    display: flex;
+    flex-direction: column;
+} */
+.left-s{
+    flex: 1;
+}
+.left-s>img{
+    width: 100%;
+}
+.left-s>div{
+    height: 6rem;
+    background-color: rgb(232, 229, 229);
+    width: 35rem;
+    margin-left: 6.5rem;
+    top: 76rem;
+    position: absolute;
+    padding: 3rem;
+    
+}
+.left-s>div>span{
+   font-size: 1.5rem;
+}
+.right-s{
+    flex: 1;
+    background-color: rgb(92, 90, 90);
+
+}
+.services-menu{
+    padding-right: 10rem;
+    font-size: 1.7rem;
+    padding-left:  5rem;
+    color: white;
+    padding-bottom: 4.7rem;
+}
+.services-menu>li{
+    margin-top: 2rem;
+}
